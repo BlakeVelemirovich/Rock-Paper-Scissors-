@@ -27,7 +27,7 @@ function singleRound() {
 	}
 }
 
-function game() {
+/* function game() {
 
 	for (let i = 0; i < 5; i++) {
 		singleRound(); 
@@ -44,4 +44,4 @@ function game() {
 	}
 }
 
-game();
+game(); */
