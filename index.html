@@ -2,18 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>A Magical Duel</title>
+  <link rel="stylesheet" href="styles.css">
   <script src="game.js" defer></script>
 </head>
 <body>
-	<div class="options">
-		<button class="manaBarrier" value="paper">Mana Barrier</button>
-		<button class="fireball" value="rock">Fireball</button>
-		<button class="icelance" value="scissors">Ice Lance</button>
+	<header>
+		Fates Intertwined! Unleash your magical art upon your opponent, lest you become pigment for their next creation!
+	</header>
+	
+	<div class="content">
+		<div class="info">
+			<p>Mana Barrier absorbs Fireball.</p>
+			<p>Ice Lance pierces Mana Barrier</p>
+			<p>Fireball melts Ice Lance</p>
+		</div>
+
+		<div class="options">
+			<button class="manaBarrier" value="paper">Mana Barrier</button>
+			<button class="fireball" value="rock">Fireball</button>
+			<button class="icelance" value="scissors">Ice Lance</button>
+		</div>
+
+		<div>
+			<p class="playerLives">Player lives: 5</p>
+			<p class="computerLives">Computer lives: 5</p>
+			<p class="heraldText"></p>
+		</div>
 	</div>
 
-	<p class="playerLives">Player lives: 5</p>
-	<p class="computerLives">Computer lives: 5</p>
-	<p class="heraldText"></p>
+	<footer>
+		Crafted by: AnOliveMoonAscends ☽
+	</footer>
 </body>
 
 </html>

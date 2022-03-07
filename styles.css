@@ -1,0 +1,28 @@
+/* First project involving JavaScript, Html and CSS together. Olive Moon 03/07/2022 */
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 25px;
+    border-top: 5px solid rgb(161, 226, 161);
+}
