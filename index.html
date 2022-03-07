@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
+<head>
   <meta charset="UTF-8">
-  <script src="game.js"></script>
-</header>
+  <script src="game.js" defer></script>
+</head>
 <body>
 	<div class="options">
-		<button class="manaBarrier">Mana Barrier</button>
-		<button class="fireball">Fireball</button>
-		<button class="IceLance">Ice Lance</button>
+		<button class="manaBarrier" value="paper">Mana Barrier</button>
+		<button class="fireball" value="rock">Fireball</button>
+		<button class="icelance" value="scissors">Ice Lance</button>
 	</div>
+
+	<p class="playerLives">Player lives: 5</p>
+	<p class="computerLives">Computer lives: 5</p>
+	<p class="heraldText"></p>
 </body>
 
 </html>
